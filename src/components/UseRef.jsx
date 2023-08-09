@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 
 export default function UseRef() {
   const videoReference = useRef();
-  console.log(videoReference.current);
   const handlePLay = () => {
     videoReference.current.play();
   };
