@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+#videoWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+}
